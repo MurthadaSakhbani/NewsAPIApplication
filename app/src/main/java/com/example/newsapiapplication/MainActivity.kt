@@ -65,22 +65,5 @@ class MainActivity : AppCompatActivity() {
                 }
             })
 
-
-//        val params = JSONObject().apply {
-//            put("pageSize", 10)
-//            put("q", "bitcoin")
-//        }
-//        val request = API.createGetRequest(this, url = "everything", params)
-//        request.getAsJSONObject(object : JSONObjectRequestListener {
-//            override fun onResponse(response: JSONObject) {
-//                val topHeadlines = TopHeadline.fromJSONArray(response.getJSONArray("articles"))
-//                val adapter = MainHeadlinesAdapter(topHeadlines)
-//                mainRecyclerView.adapter = adapter
-//            }
-//
-//            override fun onError(anError: ANError) {
-//                API.handleErrorResponse(this@MainActivity, anError)
-//            }
-//        })
     }
 }
